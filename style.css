@@ -1,0 +1,35 @@
+html,
+body {
+    color: whitesmoke;
+    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #9bf0b4, #f6f1d3);
+    background:    -moz-linear-gradient(to right, #9bf0b4, #f6f1d3);
+    background:         linear-gradient(to right, #9bf0b4, #f6f1d3);
+}
+
+.text_box {
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: #293f50;
+    display: flex;
+    margin: 0 auto;
+}
+form    {
+    color: rgb(36, 32, 32);
+}
+.center_buttons{
+    margin:auto;
+    display:block;
+}
